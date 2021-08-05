@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100px;
+    width: 100%;
+ 
+}
+
+input {
+    height: 40px;
+    width: 600px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .column {
+    display: grid;
+    flex: 25%;
+    padding: 15px;
+    justify-content: center;
+  }
+  
+  .column img {
+    vertical-align: middle;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+
